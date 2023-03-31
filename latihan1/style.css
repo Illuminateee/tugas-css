@@ -1,0 +1,27 @@
+body{
+    background-color: azure;
+}
+
+.table-siswa{
+    border-collapse: collapse;
+    width: 50%;
+    height: auto;
+    background-image: url(assets/img/bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table-siswa td{
+    padding: 20px;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+}
+
+.table-siswa th{
+    background-color: gainsboro;
+}
+
+

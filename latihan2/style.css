@@ -1,0 +1,78 @@
+body{
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.navbar{
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: bisque;
+    width: auto;
+    height: 40px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+.navbar li{
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover{
+    color: white;
+}
+
+.logo{
+    position: absolute;
+    display: inline;
+    padding: 10px;
+}
+
+.logo img{
+    width: 20px;
+    height: 20px;
+}
+
+/* content */
+.sidebar{grid-area: menu;}
+
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    grid-area: main;
+    width: 50%;
+}
+
+.card1 .container{
+    padding: 2px 16px;
+}
+
+.card2{
+    grid-area: right;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 50%;
+}
+
+.card2 .container{
+    padding: 2px 16px;
+}
+
+.content{
+    margin: 20px;
+    display: grid;
+    grid-template-areas: 
+    'menu menu main main right right'
+    ;
+}
+
